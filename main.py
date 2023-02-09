@@ -7,6 +7,6 @@ names = names_string.split(", ")
 
 #Write your code below this line 👇
 print(names)
-sum=random.randint(0, len(names))
+sum=random.randint(0, len(names)-1)
 who=names[sum]
 print(f"{who} is going to buy the meal today!" )
